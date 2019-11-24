@@ -22,7 +22,7 @@ export class TodoService {
 
     // Get Todos
     getTodos(): Observable<Todo[]> {
-        return this.http.get<Todo[]>(this.todosUrl);
+        return this.http.get<Todo[]>(`${this.todosUrl}${this.todosLimit}`);
     }
 
     // Toggle Completed
