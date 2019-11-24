@@ -7,16 +7,16 @@ const httpOptions = {
     headers: new HttpHeaders({
         'Content-Type': 'application/json'
     })
-}
+};
 
 @Injectable({
     providedIn: 'root'
 })
 
 export class TodoService {
-    todosUrl: string = 'https://my-json-server.typicode.com/nevets915/tododb/todo'; // url from json 
+    todosUrl: string = 'https://my-json-server.typicode.com/nevets915/tododb/todo'; // JSON Placeholder URL to my repo/tododb
 
-    todosLimit: string = '?_limit=5';
+    todosLimit: string = '?_limit=5'; // String for limiting results from JSON Placeholder
 
     constructor(private http: HttpClient) { }
 

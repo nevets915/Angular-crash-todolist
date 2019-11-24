@@ -1,4 +1,5 @@
 import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { Guid } from "guid-typescript";
 
 @Component({
     selector: 'app-add-todo',
@@ -15,10 +16,11 @@ export class AddTodoComponent implements OnInit {
     ngOnInit() {
     }
 
-    onSubmit() {
+    onSubmit(): void {
         const todo = {
             title: this.title,
             completed: false,
+            id: Guid.create(),
         }
 
         this.addTodo.emit(todo);
