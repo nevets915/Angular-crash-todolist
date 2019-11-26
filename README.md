@@ -6,6 +6,8 @@ Simple to do list to demonstrate Angular2+ knowledge.
 Uses JSON placeholder to simulate APIs using my TodoDb repositry.
 https://my-json-server.typicode.com/nevets915/tododb/todo
 
+Repo: https://github.com/nevets915/TodoDb
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
