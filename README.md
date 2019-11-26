@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.19.
 
+Simple to do list to demonstrate Angular2+ knowledge.
+Uses JSON placeholder to simulate APIs using my TodoDb repositry.
+https://my-json-server.typicode.com/nevets915/tododb/todo
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -25,7 +29,3 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## APIs
-
-The api responses are from JSON Placeholder, using my TodoDb repo.  URL: https://my-json-server.typicode.com/nevets915/tododb/todo
